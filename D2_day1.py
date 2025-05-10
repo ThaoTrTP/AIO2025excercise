@@ -1,7 +1,6 @@
 #Update file on 10 May 2025
-print('hello world')
-print('hello again')
-print('hello again agian')
-print('hello github')
-
-print('update from new branch')
+list1 = [5, 1, 8, 9, 4, 3]
+for i in range(len(list1)-1):
+    if list1[i] > list1[i+1]:
+        list1[i], list1[i+1] = list1[i+1], list1[i]
+        print(list1)
